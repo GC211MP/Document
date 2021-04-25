@@ -40,5 +40,21 @@
 - `APIManager.java`: maintain API connection and received data.
   - This class will be implemented by Singleton pattern
   - With Singleton, every view can access and use API data.
-- Demo
-  - (will be added)
+- APIManager singleton is managed with using DTO(Data Transfer Object), DAO(Data Access Object) class for each database table.
+  - Structure
+  - ![]()
+- Communication Demo
+  - **USER**
+    - |demo|
+      |:--:|
+      |![app_user](https://github.com/GC211MP/Document/blob/main/backend-dokyoon-kim/img/app_user.png?raw=true)|
+
+  - **DATA**
+    - |demo: POST(Create)|
+      |:--:|
+      |![app_data_post](https://github.com/GC211MP/Document/blob/main/backend-dokyoon-kim/img/app_data_post.png?raw=true)|
+    - |demo: GET(Read) with ascending order|
+      |:--:|
+      |![user_post](https://github.com/GC211MP/Document/blob/main/backend-dokyoon-kim/img/app_data_asc.png?raw=true)|
+      |**demo: GET(Read) with descending order**|
+      |![user_post](https://github.com/GC211MP/Document/blob/main/backend-dokyoon-kim/img/app_data_desc.png?raw=true)|
