@@ -1,16 +1,36 @@
 # API
 
-
-
 ### Server
 
 - Provide User and Rank data for App.
-- [See document]()
+- [Diagrams](https://github.com/GC211MP/API)
+- [API Document](https://github.com/GC211MP/API/blob/main/documents/api.md)
 
 - Demo
-  - (will be added)
+  - **POST: `/user`**
+    - |demo|
+      |:--:|
+      |![]()|
 
+  - **GET: `/user?uid=[user_id]`**
+    - |demo|
+      |:--:|
+      |![]()|
 
+  - **PATCH: `/user`**
+    - |demo1|demo2|demo3|
+      |:--:|:--:|:--:|
+      |![]()|![]()|![]()|
+
+  - **POST: `/data`**
+      - |demo|
+      |:--:|
+      |![]()|
+
+  - **GET: `/data?c=""&o=""`**
+    - |demo1|demo2|
+      |:--:|:--:|
+      |![]()|![]()|
 
 ### App
 
