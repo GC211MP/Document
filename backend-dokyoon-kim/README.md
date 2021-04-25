@@ -42,7 +42,7 @@
   - With Singleton, every view can access and use API data.
 - APIManager singleton is managed with using DTO(Data Transfer Object), DAO(Data Access Object) class for each database table.
   - Structure
-  - ![]()
+  - ![](https://github.com/GC211MP/Document/blob/main/backend-dokyoon-kim/img/desc.png?raw=true)
 - Communication Demo
   - **USER**
     - |demo|
@@ -55,6 +55,6 @@
       |![app_data_post](https://github.com/GC211MP/Document/blob/main/backend-dokyoon-kim/img/app_data_post.png?raw=true)|
     - |demo: GET(Read) with ascending order|
       |:--:|
-      |![user_post](https://github.com/GC211MP/Document/blob/main/backend-dokyoon-kim/img/app_data_asc.png?raw=true)|
+      |![app_data_asc](https://github.com/GC211MP/Document/blob/main/backend-dokyoon-kim/img/app_data_asc.png?raw=true)|
       |**demo: GET(Read) with descending order**|
-      |![user_post](https://github.com/GC211MP/Document/blob/main/backend-dokyoon-kim/img/app_data_desc.png?raw=true)|
+      |![app_data_desc](https://github.com/GC211MP/Document/blob/main/backend-dokyoon-kim/img/app_data_desc.png?raw=true)|
